@@ -1607,6 +1607,24 @@ font-size: 16px;}
 	margin-bottom: 8px;
 }
 
+.see-projects-button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.see-projects-button {
+    padding: 10px 20px; /* Add some padding inside the button */
+    text-decoration: none; /* Remove the underline from the link */
+    color: white; /* Set the text color */
+    background-color: #000001; /* Set the background color */
+    border-radius: 5px; /* Round the corners of the button */
+    transition: background-color 0.3s; /* Animate the background color when hovering */
+}
+
+.see-projects-button:hover {
+    background-color: #38383b; /* Change background color on hover */
+}
+
 .post-meta li {
 	display: inline;
 	font-size: 12px;
